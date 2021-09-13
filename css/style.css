@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #fff;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  line-height: 24px;
+  background: var(--primary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header */
+.header-content {
+  background: var(--primary-color);
+  padding: 20px 0;
+}
+
+.logo {
+  display: inline-block;
+}
+
+nav.main-navigation {
+  float: right;
+}
+nav.main-navigation ul {
+  list-style: none;
+}
+
+nav.main-navigation ul li {
+  display: inline-block;
+  padding: 5px 20px;
+}
+
+nav.main-navigation ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+
+header .banner {
+  background: url("../images/vector.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner .container h1 {
+  padding: 250px 0 100px 0;
+  color: #000;
+}
+
+/* Header end */
+
+/* Main */
+
+.main-container section {
+  padding-bottom: 50px;
+}
+
+section {
+  display: flex;
+}
+
+h2 {
+  min-width: 250px;
+}
+
+h2 + * {
+  border-left: 3px solid red;
+  padding: 0 0 0 20px;
+}
+
+h2.section-heading {
+  padding-bottom: 20px;
+}
+
+main {
+  padding-top: 70px;
+}
+
+@media (max-width: 767px) {
+  section {
+    display: block;
+  }
+
+  h2 + * {
+    border-left: none;
+    padding: 0;
+  }
+
+  .main-container section {
+    padding-bottom: 20;
+  }
+
+  main {
+    padding-top: 40px;
+  }
+}
