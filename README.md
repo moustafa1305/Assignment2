@@ -8,11 +8,11 @@ The task for this assignment was to create from scratch html and CSS code for a 
 
 desktop
 
-![screenshot 1](./images/screenshots/desktop.png)
+![screenshot 1](./images/screenshots/desktopimg.png)
 
 mobile
 
-![screenshot 2](./images/screenshots/mobile.png)
+![screenshot 2](./images/screenshots/mobileimg.png)
 
 ## LICENSE
 
