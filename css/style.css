@@ -103,6 +103,14 @@ main {
   padding-top: 70px;
 }
 
+img {
+  width: 49%;
+}
+
+#fullwidth-img {
+  width: 100%;
+}
+
 @media (max-width: 767px) {
   section {
     display: block;
@@ -115,6 +123,10 @@ main {
 
   .main-container section {
     padding-bottom: 20;
+  }
+
+  img {
+    width: 100%;
   }
 
   main {
