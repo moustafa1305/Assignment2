@@ -14,6 +14,10 @@ mobile
 
 ![screenshot 2](./images/screenshots/mobileimg.png)
 
+edited nav bar for mobile
+
+![screenshot 3](./images/screenshots/fixednavbar.png)
+
 ## LICENSE
 
 MIT
