@@ -49,6 +49,7 @@ nav.main-navigation {
 }
 nav.main-navigation ul {
   list-style: none;
+  display: flex;
 }
 
 nav.main-navigation ul li {
@@ -60,6 +61,7 @@ nav.main-navigation ul li a {
   text-decoration: none;
   color: #000;
   font-size: 18px;
+  padding: none;
 }
 
 header .banner {
@@ -118,7 +120,7 @@ img {
 
   h2 + * {
     border-left: none;
-    padding: 0;
+    padding: 20;
   }
 
   .main-container section {
@@ -131,5 +133,21 @@ img {
 
   main {
     padding-top: 40px;
+  }
+
+  @media (max-width: 600px) {
+    .container {
+      min-height: 110px;
+    }
+
+    nav.main-navigation ul {
+      display: flex;
+      flex-direction: column;
+    }
+
+    nav.main-navigation ul li {
+      display: flex;
+      padding: 5px 10px;
+    }
   }
 }
